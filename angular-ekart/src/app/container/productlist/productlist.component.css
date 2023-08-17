@@ -1,0 +1,13 @@
+
+.ekart--products--container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);              
+  gap: 20px;
+  margin: 20px auto;
+  padding: 0px 17vh;
+}
+
+
+
+
+
