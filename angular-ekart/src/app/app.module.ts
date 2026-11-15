@@ -23,13 +23,10 @@ import { FilterComponent } from './container/productlist/filter/filter.component
     SearchComponent,
     ProductlistComponent,
     ProductComponent,
-    FilterComponent
+    FilterComponent,
   ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

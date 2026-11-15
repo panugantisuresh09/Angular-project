@@ -1,17 +1,17 @@
-import { Component ,Input} from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-filter',
   templateUrl: './filter.component.html',
-  styleUrls: ['./filter.component.css']
+  styleUrls: ['./filter.component.css'],
 })
 export class FilterComponent {
   @Input()
-    all: number=0;
+  all: number = 0;
 
   @Input()
-    inStock:number=0;
+  inStock: number = 0;
 
   @Input()
-    outofStock: number=0;
+  outofStock: number = 0;
 }
